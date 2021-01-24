@@ -32,9 +32,13 @@
    
 4. **用户可自行上传Fuzzer，这里需要一个很完备的接口，暂时还没想好怎么弄**
 
+   * 上传fuzz的exe文件和一个shell脚本来执行fuzzer（暂定）
+
 5. 预支test bench：google fuzz suite、lava-m
 
 6. 支持用户自定义上传test bench以及设置参数
+
+7. 一个实例在即将被清理时，备份所有合法种子文件并销毁docker
 
 ### 存储
 
